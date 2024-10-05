@@ -1,0 +1,50 @@
+@media (max-width: 320px) {
+  // home page
+  .powertrac-content {
+    margin: 0 !important;
+  }
+  .banner-main-section .banner-inner .powertrac-content {
+    margin: 0 !important;
+  }
+  // top banner
+  .home-top-category ul li {
+    border-right: 0 !important;
+    margin: 3px 0 0 27px;
+  }
+  .main-content-wrapper .right-wrapper .right-inner-content .carvings span {
+    font-size: 20px !important;
+  }
+  .main-content-wrapper .right-wrapper .right-inner-content .pizza-images {
+    padding: 0px 38px !important;
+  }
+  // my profile page
+}
+@media (max-width: 575px) {
+}
+@media (max-width: 800px) {
+  .logo-img img {
+    height: 3rem;
+    max-width: 100%;
+  }
+  .header-action {
+    margin: 0;
+  }
+  .model-close-icon {
+    position: absolute;
+    right: -7%;
+    top: -23px;
+    width: 33px;
+    text-align: center;
+    height: 33px;
+    line-height: 36px;
+    padding: -5px;
+    border-radius: 50%;
+  }
+}
+@media (max-width: 1250px) {
+  .header-action {
+    margin-left: 3rem;
+    margin-right: 1rem;
+    margin: 0;
+  }
+}

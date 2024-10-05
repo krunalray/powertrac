@@ -1,0 +1,473 @@
+@import "../../../assets/scss/global-variable.scss";
+.sidebar-section {
+  width: 500px;
+  height: 1080px;
+  background-color: $primary-color;
+  position: relative;
+  top: 0;
+  left: 0; 
+  @media (max-width: 1536px) {
+    width: 500px;
+    height: 864px;
+  }
+  @media (max-width: 1440px) {
+    width: 500px;
+    height: 900px;
+  }
+  @media (max-width: 1366px) {
+    width: 500px;
+    height: 599px;
+  }
+  @media (max-width: 1280px) {
+    width: 438px;
+    height: 720px;
+
+  }
+  @media (max-width: 1200px) {
+    width: 400px;
+  }
+  @media (max-width: 1085px) {
+    width: 380px;
+  }
+  @media (max-width: 1024px) {
+    width: 350px;
+  }
+  @media 
+  (max-device-width: 1024px)
+  and (max-device-height: 1366px) { 
+    position: relative;
+    height: 650px;
+  }
+  @media 
+  (max-device-width: 1024px)
+  and (max-device-height: 768px) { 
+    position: relative;
+    width: 350px;
+    height: 650px;
+  }
+  @media (max-width: 992px) {
+    width: 335px;
+  }
+  @media (max-width: 962px) {
+    width: 335px;
+    height: 601px;
+  }
+   @media 
+  (max-device-width: 896px)
+  and (max-device-height: 414px) { 
+    position: relative;
+    height: 580px;
+  }
+  @media 
+  (max-device-width: 853px)
+  and (max-device-height: 480px) { 
+    position: relative;
+    height: 580px;
+  }
+  @media 
+  (max-device-width: 823px)
+  and (max-device-height: 411px) { 
+    position: relative;
+    width: 296px;
+    height: 600px;
+  }
+  @media 
+  (max-device-width: 812px)
+  and (max-device-height: 375px) { 
+    position: relative;
+    width: 296px;
+    height: 600px;
+  }
+
+  @media (max-width: 800px) {
+    width: 296px;
+    height: 640px;
+  }
+  // @media (max-width: 768px) {
+  //   width: 280px;
+  // }
+  @media (max-width: 768px) {
+    position: relative;
+    width: 280px;
+    // height: 50vh;  
+    height: 512px;   
+  }
+  @media 
+  (max-device-width: 736px)
+  and (max-device-height: 414px) { 
+    position: relative;
+    height: 680px;
+  }
+  @media 
+  (max-device-width: 731px)
+  and (max-device-height: 411px) { 
+    position: relative;
+    height: 720px;
+  }
+  @media 
+  (max-device-width: 667px)
+  and (max-device-height: 375px) { 
+    position: relative;
+    height: 720px;
+  }
+  @media 
+  (max-device-width: 640px)
+  and (max-device-height: 360px) { 
+    position: relative;
+    height: 720px;
+  }
+  @media (max-width: 601px) {
+    position: relative;
+    height: 771px;     
+  }
+  @media (max-width: 600px) {
+    width: 260px;
+  }
+  @media (max-width: 575px) {
+    width: 0;
+  }
+  @media 
+    (max-device-width: 568px)
+    and (max-device-height: 320px) { 
+      position: relative;
+      width: 0;
+      height: 650px;
+    }
+  // @media (max-width: 568px) {
+  //   width: 0;
+  //   top: 0;
+  //   left: 0;
+  // }
+  @media (max-width: 480px) {
+    width: 0;
+    top: 0;
+    left: 0;
+    // height: 70vh;   
+    height: 596px;       
+  }
+  @media 
+  (max-device-width: 480px)
+  and (max-device-height: 853px) { 
+    position: relative;
+    // height: 70vh;
+    width: 0;
+    height: 596px;
+  }
+  @media 
+  (max-device-width: 480px)
+  and (max-device-height: 320px) { 
+    position: relative;
+    width: 0;
+    height: 650px;
+  }
+  @media (max-width: 414px) {
+    position: relative;
+    width: 0;
+    height: 716px;
+  }
+  @media 
+  (max-device-width: 414px)
+  and (max-device-height: 896px) { 
+    position: relative;
+    width: 0;
+    // height: 80vh;
+    height: 716px;
+  }
+  @media 
+  (max-device-width: 414px)
+  and (max-device-height: 736px) { 
+    position: relative;
+    width: 0;
+    height: 700px;
+  }
+  @media (max-width: 411px) {
+    position: relative;
+    width: 0;
+    // height: 90vh; 
+    height: 720px;    
+  }
+  @media 
+  (max-device-width: 411px)
+  and (max-device-height: 731px) { 
+    position: relative;
+    width: 0;
+    height: 720px;
+  }
+  @media (max-width: 375px) {
+    position: relative;
+    width: 0;
+    height: 100vh;     
+  }
+  @media 
+  (max-device-width: 375px)
+  and (max-device-height: 812px) { 
+    position: relative;
+    width: 0;
+    height: 700px;
+  }
+  // @media 
+  // (max-device-width: 360px)
+  // and (max-device-height: 640px) { 
+  //   position: relative;
+  //   width: 0;
+  //   height: 700px;
+  // }
+  @media (max-width: 320px) {
+    position: relative;
+    height: 600px;     
+  }
+  .sidebar-inner {
+    .logo-img {
+      text-align: center;
+      padding-top: 20px;
+      cursor: pointer;
+      img {
+        width: 280px;
+          height: 100px;
+        @media (max-width:  1536px) {
+          width: 230px;
+          height: 80px;
+        }
+        @media (max-width:  1440px) {
+          width: 230px;
+          height: 70px;
+        }
+        @media (max-width:  1366px) {
+          width: 230px;
+          height: 70px;
+        }
+        @media (max-width: 1200px) {
+          width: 230px;
+          height: 70px;
+        }
+        @media (max-width: 992px) {
+          width: 200px;
+          height: 80px;
+        }
+        @media (max-width: 896px) {
+          width: 170px;
+          height: 60px;
+        }
+        @media (max-width: 768px) {
+          width: 180px;
+          height: 70px;
+        }
+        @media (max-width: 736px) {
+          width: 170px;
+          height: 60px;
+        }
+        @media (max-width: 667px) {
+          width: 160px;
+          height: 60px;
+        }
+      }
+      @media (max-width: 600px) {
+        padding-top: 4px;
+      }
+     
+    }
+    .logo-listing {
+      text-align: center;
+      ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        li {
+          list-style: none;
+          color: $white;
+          font-weight: $semi-bold;
+          font-size: 14px;
+          padding-right: 6px;
+          &::after {
+            content: "";
+            height: 100%;
+            border-right: 2px solid $secondary-color;
+            padding-left: 6px;
+          }
+          &:last-child {
+            &::after {
+              border-right: none;
+              padding-left: 0;
+            }
+          }
+          a {
+            cursor: pointer;
+          }
+          @media (max-width: 896px) {
+            font-size: 11px;
+            padding-right: 4px;
+          }
+          @media (max-width: 768px) {
+            font-weight: $semi-bold;
+            font-size: 11px;
+            padding-right: 4px;
+          }
+          @media (max-width: 667px) {
+            font-weight: $semi-bold;
+            font-size: 11px;
+            padding-right: 2px;        
+            }
+        }
+      }
+    }
+  }
+
+  // @media (max-width: 1536px) {
+  //   height: 100vh;
+  // }
+  // @media (max-width: 1440px) {
+  //   height: 100vh;
+  // }
+  // @media (max-width: 1366px) {
+  //   height: 100vh;
+  // }
+  //   @media (max-width: 1280px) {
+  //   height: 100vh;
+  // }
+  // @media 
+  // (max-device-width: 1024px)
+  // and (max-device-height: 1366px) { 
+  //   position: relative;
+  //   height: 650px;
+  // }
+  // @media 
+  // (max-device-width: 1024px)
+  // and (max-device-height: 768px) { 
+  //   position: relative;
+  //   height: 650px;
+  // }
+  //     @media (max-width: 962px) {
+  //   height: 100vh;
+  // }
+  // @media 
+  // (max-device-width: 896px)
+  // and (max-device-height: 414px) { 
+  //   position: relative;
+  //   height: 580px;
+  // }
+  // @media 
+  // (max-device-width: 853px)
+  // and (max-device-height: 480px) { 
+  //   position: relative;
+  //   height: 580px;
+  // }
+  // @media 
+  // (max-device-width: 823px)
+  // and (max-device-height: 411px) { 
+  //   position: relative;
+  //   width: 296px;
+  //   height: 600px;
+  // }
+  // @media 
+  // (max-device-width: 812px)
+  // and (max-device-height: 375px) { 
+  //   height: 600px;
+  // }
+  // @media 
+  // (max-device-width: 812px)
+  // and (max-device-height: 375px) { 
+  //   position: relative;
+  //   width: 296px;
+  //   height: 600px;
+  // }
+  //   @media (max-width: 800px) {
+  //     position: relative;
+  //     height: 50vh;     
+  //   }
+    // @media (max-width: 768px) {
+    //   position: relative;
+    //   height: 50vh;     
+    // }
+    // @media 
+    // (max-device-width: 736px)
+    // and (max-device-height: 414px) { 
+    //   position: relative;
+    //   height: 680px;
+    // }
+    // @media 
+    // (max-device-width: 731px)
+    // and (max-device-height: 411px) { 
+    //   position: relative;
+    //   height: 720px;
+    // }
+    // @media 
+    // (max-device-width: 667px)
+    // and (max-device-height: 375px) { 
+    //   position: relative;
+    //   height: 720px;
+    // }
+    // @media 
+    // (max-device-width: 640px)
+    // and (max-device-height: 360px) { 
+    //   position: relative;
+    //   height: 720px;
+    // }
+    // @media (max-width: 601px) {
+    //   position: relative;
+    //   height: 80vh;     
+    // }
+    // @media 
+    // (max-device-width: 568px)
+    // and (max-device-height: 320px) { 
+    //   position: relative;
+    //   width: 0;
+    //   height: 650px;
+    // }
+  //   @media (max-width: 480px) {
+  //     height: 70vh;     
+  //   }
+  //   @media 
+  // (max-device-width: 480px)
+  // and (max-device-height: 853px) { 
+  //   position: relative;
+  //   height: 70vh;
+  // }
+  //   @media 
+  //   (max-device-width: 480px)
+  //   and (max-device-height: 320px) { 
+  //     position: relative;
+  //     height: 650px;
+  //   }
+    // @media (max-width: 414px) {
+    //   position: relative;
+    //   height: 90vh;     
+    // }
+    // @media 
+    // (max-device-width: 414px)
+    // and (max-device-height: 896px) { 
+    //   position: relative;
+    //   height: 80vh;
+    // }
+    // @media 
+    // (max-device-width: 414px)
+    // and (max-device-height: 736px) { 
+    //   position: relative;
+    //   height: 700px;
+    // }
+    // @media (max-width: 411px) {
+    //   position: relative;
+    //   height: 90vh;     
+    // }
+    // @media 
+    // (max-device-width: 411px)
+    // and (max-device-height: 731px) { 
+    //   position: relative;
+    //   height: 720px;
+    // }
+    // @media (max-width: 375px) {
+    //   position: relative;
+    //   height: 100vh;     
+    // }
+    // @media 
+    // (max-device-width: 375px)
+    // and (max-device-height: 812px) { 
+    //   position: relative;
+    //   height: 700px;
+    // }
+    // @media (max-width: 320px) {
+    //   position: relative;
+    //   height: 600px;     
+    // }
+}

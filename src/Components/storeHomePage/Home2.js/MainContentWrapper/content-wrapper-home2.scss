@@ -1,0 +1,314 @@
+@import "../../../../assets/scss/global-variable.scss";
+.storehome2-content-wrapper {
+  display: flex;
+  .left-bg {
+    width: 15%;
+    background-color: $primary-color;
+    height: auto;
+    position: relative;
+    .dots-img1 {
+      position: absolute;
+      top: 2%;
+      left: 83%;
+      img{
+        width: 80px;
+        height: 70px;
+        @media (max-width: 800px) {
+          width: 70px;
+        height: 60px;
+        }
+        @media (max-width: 768px) {
+          width: 60px;
+        height: 50px;
+        }
+      }
+      @media (max-width: 1536px) {
+        left: 79%;
+      }
+      @media (max-width: 1440px) {
+        left: 77%;
+      }
+      @media (max-width:1366px) {
+        left: 75%;
+      }
+      @media (max-width: 1024px) {
+        left: 71%;
+      }
+      @media (max-width: 800px) {
+        left: 62%;
+      }
+      @media (max-width: 768px) {
+        top: 2%;
+        left: 65%;
+      }
+      .dot-pizza {
+        img{
+          width: 60px;
+          height: 60px;
+          @media (max-width:800px) {
+            width: 50px;
+            height: 50px;
+           }
+        }
+        @media (max-width: 1920px) {
+          margin-top: -90px;
+          margin-left: -32px;
+         }
+        @media (max-width: 1536px) {
+          margin-top: -90px;
+          margin-left: -32px;
+         }
+        @media (max-width:1440px) {
+          margin-top: -90px;
+          margin-left: -32px;
+         }
+        @media (max-width:1366px) {
+          margin-top: -90px;
+          margin-left: -32px;
+         }
+         @media (max-width:800px) {
+           margin-top: -82px;
+           margin-left: -28px;
+          }
+          @media (max-width: 768px) {
+           margin-top: -70px;
+           margin-left: -28px;
+         }
+      }
+    }
+    
+    .dots-img2 {
+      position: absolute;
+      top: 30%;
+      left: 40%;
+      img{
+        width: 80px;
+        height: 70px;
+        @media (max-width: 800px) {
+          width: 70px;
+        height: 60px;
+        }
+        @media (max-width: 768px) {
+          width: 60px;
+          height: 50px;
+        }
+      }
+      @media (max-width: 1536px) {
+        top: 30%;
+        left: 35%;
+      }
+      @media (max-width: 1440px) {
+        top: 30%;
+        left: 35%;
+      }
+      @media (max-width: 1366px) {
+        top: 30%;
+        left: 30%;
+      }
+      @media (max-width: 1280px) {
+        top: 30%;
+        left: 30%;
+      }
+      @media (max-width: 1024px) {
+        top: 30%;
+        left: 27%;
+      }
+      @media (max-width: 800px) {
+        top: 30%;
+        left: 30%;
+      }
+      @media (max-width: 768px) {
+        top: 30%;
+        left: 30%;
+      }
+      .dot-burger {
+        img{
+          width: 60px;
+          height: 60px;
+          @media (max-width: 800px) {
+            width: 50px;
+          height: 50px;
+          }
+          @media (max-width: 600px) {
+            width: 50px;
+            height: 50px;
+          }
+        }
+        @media (max-width: 1920px) {
+          margin-top: -30px;
+          margin-left: -32px;
+        }
+        @media (max-width: 1536px) {
+          margin-top: -30px;
+          margin-left: -32px;
+        }
+        @media (max-width: 1440px) {
+          margin-top: -30px;
+          margin-left: -32px;
+        }
+        @media (max-width:1366px) {
+          margin-top: -30px;
+          margin-left: -32px;
+        }
+        @media (max-width:800px) {
+          margin-top: -30px;
+          margin-left: -26px;
+        }
+      }
+    }
+  
+    .dots-img3 {
+      position: absolute;
+      bottom: 2%;
+      left: -10%;
+      img{
+        width: 80px;
+        height: 70px;
+        @media (max-width: 800px) {
+          width: 70px;
+          height: 60px;
+        }
+        @media (max-width: 768px) {
+          width: 60px;
+        height: 50px;
+        }
+      } @media (max-width: 1536px) {
+        bottom: 2%;
+        left: -11%;
+      }
+      @media (max-width: 1440px) {
+        bottom: 2%;
+        left: -12%;
+      }
+      @media (max-width: 1280px) {
+        bottom: 2%;
+        left: -15%;
+      }
+      // @media (max-width: 1024px) {
+      //   bottom: 2%;
+      //   left: -30%;
+      // }
+      @media (max-width: 1024px) {
+        bottom: 2%;
+        left: -20%;
+      }
+      @media (max-width: 768px) {
+        bottom: 2%;
+        left: -30%;
+      }
+    }
+    @media (max-width: 1536px) {
+      width: 15%;     
+    }
+    @media (max-width: 575px) {
+      width: 0;
+    }
+
+  }
+  .right-wrapper {
+    width: 100%;
+    background-color: $primary-color;
+    z-index: 2;
+    .right-inner-content {
+      padding: 50px 40px 50px 40px;
+      overflow: hidden;
+      background: $white;
+      .tab-content {
+        .custom-tab {
+          .MuiTabs-root{
+            border: 1px solid #ecedf4;
+            border-radius: 30px;
+            box-shadow: 0 5px 5px -5px #a1b8eb;
+            margin: .5rem;
+            min-height: 40px;
+            .Mui-disabled{
+              opacity: 1;
+            }
+            .MuiTabs-scrollable{
+                .PrivateTabIndicator-colorPrimary-2{
+                    background-color: #ffffff;
+                    display: none;
+                }
+                .MuiTabs-flexContainer{
+                    .MuiTab-textColorPrimary{
+                        color: #19227d;
+                    }
+                       .Mui-selected{
+                        border-radius: 30px;
+                        background-color: #ef4323;
+                        border-color: #ef4323;
+                        color: #ffffff;
+                       }      
+                    .MuiTab-root{
+                        font-weight: 600;
+                        padding: 10px 16px;
+                        min-height: 40px;
+                        line-height: 11px;
+                        font-size: 15px;
+                        .MuiTab-wrapper{
+                          @media (max-width: 1366px) {
+                            font-size: 14px;
+                          }
+                          @media (max-width: 962px) {
+                            font-size: 12px;
+                          }
+                          @media (max-width: 601px) {
+                            font-size: 10px;
+                          }
+                        }
+                        .MuiTouchRipple-root{
+                          .MuiTouchRipple-rippleVisible{
+                            opacity: 0;
+                            animation: none;
+                            transform: none;
+                          }
+                        }
+                        @media (max-width: 601px) {
+                          padding: 10px 12px;
+                        }
+                    }
+                }      
+            }
+            @media (max-width: 599.95px){
+              .MuiTabs-scrollButtonsDesktop {
+                display: block;
+                .MuiSvgIcon-fontSizeSmall{
+                    font-size: 36px;
+                }
+              }
+            }    
+        }
+        .MuiBox-root{
+            background-color: $white;
+            padding: 40px 0 0 0;
+            color: #9fa1a2;
+        }
+        }
+      }
+      @media (max-width: 1024px) {
+        padding: 50px 10px;
+      }
+      @media (max-width: 800px) {
+        padding: 50px 20px;
+      }
+      @media (max-width: 768px) {
+        padding: 50px 10px;
+      }
+      @media (max-width: 568px) {
+        border-radius: 0;
+      }
+    }
+    @media (max-width: 1024px) {
+      width:90%;
+    }
+    @media (max-width: 768px) {
+      width:92%;
+    }
+    @media (max-width: 600px) {
+      width: 96%;
+    }
+    @media (max-width: 480px) {
+      width: 100%;
+    }
+  }
+}

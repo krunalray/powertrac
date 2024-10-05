@@ -1,0 +1,121 @@
+@import '../../assets/scss/global-variable.scss';
+/* header */
+.logo-img img {
+  height: 4rem;
+  max-width: 100%;
+  /* height: auto; */
+}
+.header-action li {
+  margin-left: 2rem;
+}
+.header-action {
+  margin: 0.7rem 3.5rem;
+}
+
+/* home banner  */
+.home-top-category ul li {
+  text-decoration: none;
+  padding: 0.2em 1.1em;
+  border-right: 5px solid $secondary-color;
+  border-radius: 2px;
+  margin: 0 0 0 -6px;
+  color: #fff;
+  font-weight: 800;
+}
+.home-top-category ul {
+  list-style-type: none;
+  text-align: center;
+}
+.banner-logo .logo-img img {
+  height: 7rem;
+}
+// home page card
+.item-menu-title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: $primary-color;
+}
+.novelties-content-wrapper .container {
+  max-width: 92rem;
+}
+.MuiInput-underline:before {
+  border-bottom: 1px solid #eee !important;
+}
+.profile-inner {
+  padding: 70px 60px 70px 60px;
+}
+.my-profile-section .justify-content-end {
+  justify-content: flex-end !important;
+  text-align: right;
+}
+.my-profile-inner .fa-times {
+  color: $secondary-color;
+}
+.home-top-category .list li:last-child {
+  border-right: none;
+}
+.fade.modal.show {
+  padding-left: 0px !important;
+}
+// model
+.model-close-icon {
+  position: absolute;
+  right: -4%;
+  top: -28px;
+  width: 40px;
+  height: 40px;
+  margin: 10px 8px;
+  line-height: 40px;
+  border: 1px solid transparent;
+  background-color: #fff;
+  text-align: center;
+  padding: 0;
+  border-radius: 50%;
+  i {
+    color: $secondary-color;
+  }
+}
+@media (min-width: 576px) {
+  .navbar-expand-sm .navbar-nav .nav-link {
+    font-size: 18px;
+  }
+  .header-action {
+    margin-left: 11rem;
+    margin-right: 1rem;
+  }
+  .model-close-icon {
+    right: -7%;
+    top: -28px;
+    width: 37px;
+    height: 37px;
+    i {
+      color: $secondary-color;
+    }
+  }
+}
+// small
+@media (max-width: 320px) {
+  // home page
+  .powertrac-content {
+    margin: 0 !important;
+  }
+  .banner-main-section .banner-inner .powertrac-content {
+    margin: 0 !important;
+  }
+  // top banner
+  .home-top-category ul li {
+    border-right: 0 !important;
+    margin: 3px 0 0 27px;
+  }
+  .main-content-wrapper .right-wrapper .right-inner-content .carvings span {
+    font-size: 20px !important;
+  }
+  .main-content-wrapper .right-wrapper .right-inner-content .pizza-images {
+    padding: 0px 38px !important;
+  }
+  .home-top-category .list {
+    display: inline-block !important;
+    padding: 0.2em 0em;
+  }
+}

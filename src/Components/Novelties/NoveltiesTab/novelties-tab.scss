@@ -1,0 +1,449 @@
+@import "../../../assets/scss/global-variable.scss";
+.novelties-content-wrapper {
+  .left-bg {
+    width: 15%;
+    background-color: $primary-color;
+    height: auto;
+    position: relative;
+    .dots-img1 {
+      position: absolute;
+      top: 2%;
+      left: 83%;
+      img {
+        width: 80px;
+        height: 70px;
+        @media (max-width: 800px) {
+          width: 70px;
+          height: 60px;
+        }
+        @media (max-width: 768px) {
+          width: 60px;
+          height: 50px;
+        }
+      }
+      @media (max-width: 1536px) {
+        left: 79%;
+      }
+      @media (max-width: 1440px) {
+        left: 77%;
+      }
+      @media (max-width: 1366px) {
+        left: 75%;
+      }
+      @media (max-width: 1024px) {
+        left: 71%;
+      }
+      @media (max-width: 962px) {
+        left: 65%;
+      }
+      @media (max-width: 800px) {
+        left: 62%;
+      }
+      @media (max-width: 768px) {
+        top: 2%;
+        left: 65%;
+      }
+      @media (max-width: 601px) {
+        top: 2%;
+        left: 60%;
+      }
+      .dot-pizza {
+        img {
+          width: 60px;
+          height: 60px;
+          @media (max-width: 800px) {
+            width: 50px;
+            height: 50px;
+          }
+        }
+        @media (max-width: 1920px) {
+          margin-top: -90px;
+          margin-left: -32px;
+        }
+        @media (max-width: 1536px) {
+          margin-top: -90px;
+          margin-left: -32px;
+        }
+        @media (max-width: 1440px) {
+          margin-top: -90px;
+          margin-left: -32px;
+        }
+        @media (max-width: 1366px) {
+          margin-top: -90px;
+          margin-left: -32px;
+        }
+        @media (max-width: 800px) {
+          margin-top: -82px;
+          margin-left: -28px;
+        }
+        @media (max-width: 768px) {
+          margin-top: -70px;
+          margin-left: -28px;
+        }
+      }
+    }
+    .dots-img2 {
+      position: absolute;
+      top: 30%;
+      left: 40%;
+      img {
+        width: 80px;
+        height: 70px;
+        @media (max-width: 800px) {
+          width: 70px;
+          height: 60px;
+        }
+        @media (max-width: 768px) {
+          width: 60px;
+          height: 50px;
+        }
+        @media (max-width: 601px) {
+          width: 50px;
+          height: 50px;
+        }
+      }
+      @media (max-width: 1536px) {
+        top: 30%;
+        left: 35%;
+      }
+      @media (max-width: 1440px) {
+        top: 30%;
+        left: 35%;
+      }
+      @media (max-width: 1366px) {
+        top: 30%;
+        left: 30%;
+      }
+      @media (max-width: 1280px) {
+        top: 30%;
+        left: 30%;
+      }
+      @media (max-width: 1024px) {
+        top: 30%;
+        left: 27%;
+      }
+      @media (max-width: 800px) {
+        top: 30%;
+        left: 30%;
+      }
+      @media (max-width: 768px) {
+        top: 30%;
+        left: 30%;
+      }
+      .dot-burger {
+        img {
+          width: 60px;
+          height: 60px;
+          @media (max-width: 800px) {
+            width: 50px;
+            height: 50px;
+          }
+          @media (max-width: 601px) {
+            width: 40px;
+            height: 40px;
+          }
+        }
+        @media (max-width: 1920px) {
+          margin-top: -30px;
+          margin-left: -32px;
+        }
+        @media (max-width: 1536px) {
+          margin-top: -30px;
+          margin-left: -32px;
+        }
+        @media (max-width: 1440px) {
+          margin-top: -30px;
+          margin-left: -32px;
+        }
+        @media (max-width: 1366px) {
+          margin-top: -30px;
+          margin-left: -32px;
+        }
+        @media (max-width: 800px) {
+          margin-top: -30px;
+          margin-left: -26px;
+        }
+        @media (max-width: 601px) {
+          margin-top: -20px;
+          margin-left: -20px;
+        }
+      }
+    }
+
+    .dots-img3 {
+      position: absolute;
+      bottom: 2%;
+      left: -10%;
+      img {
+        width: 80px;
+        height: 70px;
+        @media (max-width: 800px) {
+          width: 70px;
+          height: 60px;
+        }
+        @media (max-width: 768px) {
+          width: 60px;
+          height: 50px;
+        }
+      }
+      @media (max-width: 1536px) {
+        bottom: 2%;
+        left: -11%;
+      }
+      @media (max-width: 1440px) {
+        bottom: 2%;
+        left: -12%;
+      }
+      @media (max-width: 1280px) {
+        bottom: 2%;
+        left: -15%;
+      }
+      @media (max-width: 1024px) {
+        bottom: 2%;
+        left: -21%;
+      }
+      @media (max-width: 768px) {
+        bottom: 2%;
+        left: -18%;
+      }
+      @media (max-width: 601px) {
+        bottom: 2%;
+        left: -27%;
+      }
+    }
+    @media (max-width: 1536px) {
+      width: 15%;
+    }
+    @media (max-width: 575px) {
+      width: 0;
+    }
+  }
+  .right-wrapper {
+    .right-inner-content {
+      padding: 50px 60px 50px 60px;
+      overflow: hidden;
+      background: $white;
+      .tab-content {
+        .custom-tab {
+          .MuiTabs-root {
+            border: 1px solid #ecedf4;
+            border-radius: 30px;
+            box-shadow: 0 5px 5px -5px #a1b8eb;
+            margin: .5rem;
+            min-height: 40px;
+            .Mui-disabled {
+              opacity: 1;
+            }
+            .MuiTabs-scrollable {
+              .PrivateTabIndicator-colorPrimary-2 {
+                background-color: #ffffff;
+                display: none;
+              }
+              .MuiTabs-flexContainer {
+                .MuiTab-textColorPrimary {
+                  color: #19227d;
+                  border-radius: 30px;
+                  background-color: #ffffff;
+                  border-color: #ffffff;
+                }
+                .Mui-selected {
+                  border-radius: 30px;
+                  background-color: #ef4323;
+                  border-color: #ef4323;
+                  color: #ffffff;
+                }
+                .MuiTab-root {
+                  font-weight: 600;
+                  padding: 10px 36px;
+                  min-height: 40px;
+                  line-height: 11px;
+                  .MuiTab-wrapper {
+                    @media (max-width: 1366px) {
+                      font-size: 14px;
+                    }
+                    @media (max-width: 962px) {
+                      font-size: 12px;
+                    }
+                    @media (max-width: 601px) {
+                      font-size: 10px;
+                    }
+                  }
+                  .MuiTouchRipple-root {
+                    .MuiTouchRipple-rippleVisible {
+                      opacity: 0;
+                      animation: none;
+                      transform: none;
+                    }
+                  }
+                  @media (max-width: 601px) {
+                    padding: 10px 12px;
+                  }
+                }
+              }
+            }
+            @media (max-width: 599.95px) {
+              .MuiTabs-scrollButtonsDesktop {
+                display: block;
+                .MuiSvgIcon-fontSizeSmall {
+                  font-size: 36px;
+                }
+              }
+            }
+          }
+          .MuiBox-root {
+            background-color: $white;
+            padding: 40px 0 0 0;
+            color: #9fa1a2;
+          }
+          // .nav-tabs {
+          //   border: 1px solid #ecedf4;
+          //   border-radius: 30px;
+          //   .nav-link {
+          //     border: 0;
+          //     border-radius: 30px;
+          //     background-color: $white;
+          //     border-color: $white;
+          //     margin-bottom: 0;
+          //     font-size: 16px;
+          //     font-weight: $semi-bold;
+          //     padding: 10px 58px;
+          //     color: rgba($black, 1);
+          //     &.active {
+          //       border-radius: 30px;
+          //       background-color: $secondary-color;
+          //       border-color: $secondary-color;
+          //       color: $white;
+          //     }
+          //     @media (max-width:1536px) {
+          //       padding: 10px 35px;
+          //     }
+          //     @media (max-width: 1440px) {
+          //       font-size: 14px;
+          //       padding: 10px 35px;
+          //     }
+          //     @media (max-width:1366px) {
+          //       font-size: 14px;
+          //       padding: 10px 31px;
+          //     }
+          //     @media (max-width: 1280px) {
+          //       padding: 10px 14px;
+          //     }
+          //     @media (max-width: 1280px) {
+          //       padding: 8px 28px;
+          //       font-size: 13px;
+          //     }
+          //     @media (max-width: 1024px) {
+          //       padding: 8px 13px;
+          //       font-size: 13px;
+          //     }
+          //     @media (max-width: 962px) {
+          //       padding: 8px 13px;
+          //       font-size: 12px;
+          //     }
+          //     @media
+          //     (max-device-width: 896px)
+          //     and (max-device-height: 414px) {
+          //       padding: 8px 12px;
+          //       font-size: 12px;
+          //    }
+          //     @media
+          //     (max-device-width: 853px)
+          //     and (max-device-height: 480px) {
+          //       padding: 8px 12px;
+          //       font-size: 10px;
+          //    }
+          //    @media
+          //    (max-device-width: 812px)
+          //    and (max-device-height: 375px) {
+          //      padding: 8px 13px;
+          //      font-size: 10px;
+          //    }
+          //     @media (max-width: 800px) {
+          //       padding: 8px 12px;
+          //       font-size: 10px;
+          //     }
+          //     @media (max-width: 768px) {
+          //       padding: 8px 13px;
+          //       font-size: 10px;
+          //     }
+          //     @media
+          //     (max-device-width: 736px)
+          //     and (max-device-height: 414px) {
+          //       padding: 8px 11px;
+          //       font-size: 10px;
+          //     }
+          //     @media
+          //     (max-device-width: 731px)
+          //     and (max-device-height: 411px) {
+          //       padding: 8px 11px;
+          //       font-size: 10px;
+          //     }
+          //     @media
+          //     (max-device-width: 667px)
+          //     and (max-device-height: 375px) {
+          //       padding: 8px 10px;
+          //       font-size: 9px;
+          //     }
+          //     @media
+          //     (max-device-width: 640px)
+          //     and (max-device-height: 360px) {
+          //       padding: 6px 10px;
+          //       font-size: 8px;
+          //     }
+          //     @media (max-width: 601px) {
+          //       padding: 6px 10px;
+          //       font-size: 8px;
+          //     }
+          //     @media
+          //   (max-device-width: 568px)
+          //   and (max-device-height: 320px) {
+          //     padding: 6px 14px;
+          //     font-size: 8px;
+          //   }
+          //     @media (max-width: 480px) {
+          //       padding: 6px 8px;
+          //     }
+          //     @media (max-width: 414px) {
+          //       padding: 6px 3px;
+          //       font-size: 8px;
+          //     }
+          //     @media (max-width: 320px) {
+          //       padding: 6px 4px;
+          //     }
+          //   }
+          // }
+          .tab-content {
+            background-color: $white;
+            padding: 60px 0 0 0;
+            color: #9fa1a2;
+            @media (max-device-width: 480px) and (max-device-height: 320px) {
+              padding: 40px 0 0 0;
+            }
+            @media (max-width: 411px) {
+              padding: 40px 0 0 0;
+            }
+            @media (max-device-width: 320px) and (max-device-height: 568px) {
+              padding: 40px 0 0 0;
+            }
+          }
+        }
+      }
+      @media (max-width: 800px) {
+        padding: 50px 40px;
+      }
+      @media (max-device-width: 896px) and (max-device-height: 414px) {
+        padding: 50px 40px;
+      }
+      @media (max-width: 768px) {
+        padding: 50px 20px;
+      }
+      @media (max-width: 601px) {
+        padding: 100px 10px;
+      }
+    }
+    @media (max-width: 575px) {
+      width: 100%;
+      background-color: $white;
+    }
+  }
+}
